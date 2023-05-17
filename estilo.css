@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, rgb(2, 28, 100), #0dbce7);
+}
+
+.login_area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 8px rgba(0,0 , 0, 336);
+  background: transparent;
+  background-color: rgba(219, 221, 224, 0.801);
+  border: 2px solid #070707;
+  height: 290px;
+  width: 280px;
+ color: rgb(10, 55, 94);
+ border-radius: 10px;
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #0686c2;
+    width: 90%;
+    color: #fdfdff;
+    text-decoration: solid 1px #044977;
+ 
+   
+}
+#lua{
+    position: absolute;
+    left: 75%;
+    top: 5%;
+    cursor: pointer;
+    color: #565657;
+}
+i{
+    color: #1583dd;
+    
+}
+.h1_log{
+    color: #131568;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a_1 {
+ 
+   text-align: center;
+   margin: 10px;
+}
+.a_1:hover a {
+    color: rgb(1, 20, 43);
+    
+    
+    
+}
+.a_1 a {
+    text-decoration: none;
+    color: rgb(62, 96, 170);
+}
+button{
+    height: 33px;
+    width: 88%;
+    text-align: center;
+    background: linear-gradient(140deg, rgb(6, 205, 255), #0b08aa);
+    cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+   position: absolute;
+   left: 8%;
+   bottom: 7%;
+}
+.input_fild{
+    margin: 10px;
+    border: none;
+}  
+input:focus{
+    outline:none;
+}
+.bolhas{
+    width:100%;
+    height: 90%;
+    
+    
+}
+.surfee img{
+  width: 60%;
+  display:flexbox ;
+
+}
+   
+
+.surfee{
+    position: absolute;
+    top:50%;
+    left: 0%;
+    cursor: pointer;
+    
+   
+}
+.surfee:hover{
+    animation: lado 4s linear infinite;
+}
+@keyframes lado {
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
+.dark{
+    width: 37px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #e4e4e4;
+    position: absolute;
+    top:11px;
+    left: 81%;
+    border: 2px solid #0686c2;
+    box-shadow: 2px 2px 4px #0004ff;
+    
+}
+.btn{
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    background-color: #044977;
+    cursor: pointer;
+    
+    border: 2px solid #070707;
+}
+.btn.active{
+    position: absolute;
+    left: 54%;
+
+    
+}
+
+.dark.active{
+    background: linear-gradient(120deg, rgb(1, 10, 34), #2aa0c0);
+}
+.are{
+    width: 100vw;
+    height: 100vh;
+
+}
+.are.active{
+    background: linear-gradient(100deg, rgb(16, 28, 61), #03637e);
+}
